@@ -1,14 +1,15 @@
 
 %h1=@squad.name
 
-=link_to "edit roster, and add game", edit_squad_path(@squad.id)
+=link_to "edit roster, and add game", edit_squad_path(@squad.id), class: "nav"
 
-%h2="Next Game"
+%h2.redglow="Next Game"
 =@squad.games.first.time unless @squad.games.size ==0
-%h2="Leader"
+%h2.redglow="Leader"
 =@squad.leader.gamer_tag
-%h2="Members"
+%h2.redglow="Members"
 -@squad.users.each do |u|
   %p=u.gamer_tag
   
-=link_to "Add me to this Squad", squad_path(@squad.id, :new_user_id => current_user.id), :method => :put
+=link_to "Add me to this Squad", squad_path(@squad.id, :new_user_id => current_user.id), :method => :put, class: "nav"
+=link_to "View all squads", squads_path, class: "nav"

@@ -6,10 +6,11 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Gemfile" changelist="d62ff403-f681-4f47-a9a2-e22173c0b792" time="1367984282285" ignored="false" />
     <file path="/edit.html.haml" changelist="d62ff403-f681-4f47-a9a2-e22173c0b792" time="1367985713771" ignored="false" />
-    <file path="/new.html.haml" changelist="d62ff403-f681-4f47-a9a2-e22173c0b792" time="1367986349175" ignored="false" />
-    <file path="/new.html.erb" changelist="d62ff403-f681-4f47-a9a2-e22173c0b792" time="1367985734220" ignored="false" />
+    <file path="/new.html.haml" changelist="d62ff403-f681-4f47-a9a2-e22173c0b792" time="1367987273158" ignored="false" />
+    <file path="/new.html.erb" changelist="d62ff403-f681-4f47-a9a2-e22173c0b792" time="1367987146783" ignored="false" />
     <file path="/_links.erb" changelist="d62ff403-f681-4f47-a9a2-e22173c0b792" time="1367985583528" ignored="false" />
-    <file path="/edit.html.erb" changelist="d62ff403-f681-4f47-a9a2-e22173c0b792" time="1367985758229" ignored="false" />
+    <file path="/edit.html.erb" changelist="d62ff403-f681-4f47-a9a2-e22173c0b792" time="1367987138089" ignored="false" />
+    <file path="/show.html.haml" changelist="d62ff403-f681-4f47-a9a2-e22173c0b792" time="1367987063463" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,28 +27,28 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/devise/passwords/new.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="22" selection-start="211" selection-end="211" vertical-scroll-proportion="-3.125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/devise/passwords/edit.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="22" selection-start="388" selection-end="388" vertical-scroll-proportion="-5.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/games/new.html.haml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/devise/unlocks/new.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="22" selection-start="214" selection-end="214" vertical-scroll-proportion="-3.125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_links.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/devise/shared/_links.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="119" selection-start="1149" selection-end="1149" vertical-scroll-proportion="-13.75">
               <folding />
             </state>
           </provider>
@@ -71,37 +72,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/squads/index.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/squads/new.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/squads/show.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="89" selection-start="357" selection-end="357" vertical-scroll-proportion="-8.75">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="8" selection-start="477" selection-end="477" vertical-scroll-proportion="0.21218488">
+            <state line="1" column="115" selection-start="135" selection-end="135" vertical-scroll-proportion="-0.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html.haml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="22" selection-start="546" selection-end="546" vertical-scroll-proportion="0.45356372">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/devise/passwords/new.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/devise/passwords/edit.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -110,7 +111,7 @@
       <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/devise/sessions/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="6" selection-start="451" selection-end="451" vertical-scroll-proportion="-8.125">
+            <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -130,10 +131,11 @@
         <option value="$PROJECT_DIR$/app/views/devise/confirmations/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/devise/shared/_links.erb" />
         <option value="$PROJECT_DIR$/app/views/devise/unlocks/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/devise/registrations/edit.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/devise/passwords/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/squads/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/devise/passwords/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/devise/passwords/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.haml" />
       </list>
     </option>
@@ -275,10 +277,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -646,6 +644,13 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
       <option name="VM_PARAMETERS" value="" />
       <option name="USER_CFG_CLASS" />
@@ -866,63 +871,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/shared/_links.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="119" selection-start="1149" selection-end="1149" vertical-scroll-proportion="-13.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/unlocks/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="214" selection-end="214" vertical-scroll-proportion="-3.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="10" selection-start="941" selection-end="941" vertical-scroll-proportion="-16.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/mailer/unlock_instructions.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/passwords/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="211" selection-end="211" vertical-scroll-proportion="-3.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/passwords/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="22" selection-start="388" selection-end="388" vertical-scroll-proportion="-5.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/games/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/squads/edit.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -936,6 +885,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/squads/show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="53" selection-start="462" selection-end="462" vertical-scroll-proportion="-8.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/squads/new.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -943,23 +899,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/squads/show.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/squads/edit.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="89" selection-start="357" selection-end="357" vertical-scroll-proportion="-8.75">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/games/new.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/unlocks/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="22" selection-start="214" selection-end="214" vertical-scroll-proportion="-3.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/shared/_links.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="119" selection-start="1149" selection-end="1149" vertical-scroll-proportion="-13.75">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/sessions/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="6" selection-start="451" selection-end="451" vertical-scroll-proportion="-8.125">
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/passwords/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/passwords/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="8" selection-start="477" selection-end="477" vertical-scroll-proportion="0.21218488">
+        <state line="1" column="115" selection-start="135" selection-end="135" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="22" selection-start="546" selection-end="546" vertical-scroll-proportion="0.45356372">
           <folding />
         </state>
       </provider>
