@@ -1,0 +1,78 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+.whiteglow {
+    text-shadow: 0 0 0.4em #BBBBCC, 0 0 1em #97D2FD;
+    color: white;
+    font-family: 'Pontano Sans', sans-serif;
+    font-weight: bold;
+}
+
+.redglow {
+    text-shadow: 0 0 0.2em rgb(146, 85, 28), 0 0 0.7em #FF2222;
+    color: rgb(255, 233, 179);
+    font-family: 'Pontano Sans', sans-serif;
+    font-weight: bold;
+}
+
+.greenglow {
+    text-shadow: 0 0 0.2em rgb(105, 200, 44), 0 0 0.7em #77FF77;
+    color: rgb(216, 252, 160);
+    font-family: 'Pontano Sans', sans-serif;
+    font-weight: bold;
+}
+a.nav:link { text-shadow: 0 0 0.4em #BBBBCC, 0 0 1em #97D2FD;
+    color: white;
+    font-family: 'Pontano Sans', sans-serif;
+    font-weight: bold;}
+a.nav:visited {text-shadow: 0 0 0.4em #BBBBCC, 0 0 1em #97D2FD;
+    color: white;
+    font-family: 'Pontano Sans', sans-serif;
+    font-weight: bold; }
+a.nav:hover {text-shadow: 0 0 0.4em #BBBBCC, 0 0 1em #97D2FD;
+    color: white;
+    font-family: 'Pontano Sans', sans-serif;
+    font-weight: bold;; }
+a.nav:active {text-shadow: 0 0 0.4em #BBBBCC, 0 0 1em #97D2FD;
+    color: white;
+    font-family: 'Pontano Sans', sans-serif;
+    font-weight: bold; }
+
+a.external:link { text-shadow: 0 0 0.4em #BBBBCC, 0 0 1em #97D2FD;
+    color: white;
+    font-family: 'Pontano Sans', sans-serif;
+    font-weight: bold;}
+a.external:visited {text-shadow: 0 0 0.4em #BBBBCC, 0 0 1em #97D2FD;
+    color: white;
+    font-family: 'Pontano Sans', sans-serif;
+    font-weight: bold; }
+a.external:hover {text-shadow: 0 0 0.4em #BBBBCC, 0 0 1em #97D2FD;
+    color: white;
+    font-family: 'Pontano Sans', sans-serif;
+    font-weight: bold;; }
+a.external:active {text-shadow: 0 0 0.4em #BBBBCC, 0 0 1em #97D2FD;
+    color: white;
+    font-family: 'Pontano Sans', sans-serif;
+    font-weight: bold; }
+
+body {
+    background-image: url('http://mp1st.com/wp-content/uploads/2011/09/Battlefield-31.jpeg');
+    background-repeat: no-repeat;
+
+}
+
+form {
+    padding-top: 50px;
+    padding-left: 150px;
+}

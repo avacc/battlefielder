@@ -1,0 +1,7 @@
+=form_for @squad, :url => squad_path(@squad), :method => :put do |f|
+  %p=f.text_field :name
+  =f.fields_for :game do |gf|
+    %p
+      =gf.label :time
+      =gf.datetime_select :time
+  =f.submit
