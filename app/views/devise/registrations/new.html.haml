@@ -1,39 +1,39 @@
 %h2.redglow Sign up
 = form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f|
   = devise_error_messages!
-  %div
+  %div.greenglow
     = f.label :email
     %br/
     = f.email_field :email, :autofocus => true
-  %div
+  %div.greenglow
     = f.label :first_name
     %br/
     = f.text_field :first_name
-  %div
+  %div.greenglow
     = f.label :last_name
     %br/
     = f.text_field :last_name
-  %div
+  %div.greenglow
     = f.label :gamer_tag
     %br/
     = f.text_field :gamer_tag
-  %div
+  %div.greenglow
     = f.label :preffered_class
     %br/
     = f.text_field :preffered_class
-  %div
+  %div.greenglow
     = f.label :battlelog
     %br/
     = f.check_box :battlelog
-  %div
+  %div.greenglow
     = f.label :gender
     %br/
     = f.text_field :gender
-  %div
+  %div.greenglow
     = f.label :password
     %br/
     = f.password_field :password
-  %div
+  %div.greenglow
     = f.label :password_confirmation
     %br/
     = f.password_field :password_confirmation
