@@ -3,39 +3,39 @@
   = devise_error_messages!
   %div.greenglow
     = f.label :email
-    %br/
     = f.email_field :email, :autofocus => true
+    %br/
   %div.greenglow
     = f.label :first_name
-    %br/
     = f.text_field :first_name
+    %br/
   %div.greenglow
     = f.label :last_name
-    %br/
     = f.text_field :last_name
+    %br/
   %div.greenglow
     = f.label :gamer_tag
-    %br/
     = f.text_field :gamer_tag
+    %br/
   %div.greenglow
     = f.label :preffered_class
-    %br/
     = f.text_field :preffered_class
+    %br/
   %div.greenglow
     = f.label :battlelog
-    %br/
     = f.check_box :battlelog
+    %br/
   %div.greenglow
     = f.label :gender
-    %br/
     = f.text_field :gender
+    %br/
   %div.greenglow
     = f.label :password
-    %br/
     = f.password_field :password
+    %br/
   %div.greenglow
     = f.label :password_confirmation
-    %br/
     = f.password_field :password_confirmation
+    %br/
   %div= f.submit "Sign up"
 = render "devise/shared/links"
