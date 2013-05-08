@@ -1,5 +1,5 @@
 
-%h1=@squad.name
+%h1.redglow=@squad.name
 
 =link_to "edit roster, and add game", edit_squad_path(@squad.id), class: "nav"
 
@@ -12,4 +12,5 @@
   %p=u.gamer_tag
   
 =link_to "Add me to this Squad", squad_path(@squad.id, :new_user_id => current_user.id), :method => :put, class: "nav"
+%br/
 =link_to "View all squads", squads_path, class: "nav"
