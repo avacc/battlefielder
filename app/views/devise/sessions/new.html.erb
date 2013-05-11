@@ -13,5 +13,14 @@
 
   <div><%= f.submit "Sign in" %></div>
 <% end %>
-
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+         $("button").click(function(){
+              $("#p1").fadeIn("slow");
+         });
+    });
+</script>
+<button class="btn-inverse">Help</button><br>
+<p id="p1" style="display:none;" class="redglow">If you have an account, enter your email and password.  If you don't have an account, click "Sign Up"</p>
 <%= render "devise/shared/links" %>
